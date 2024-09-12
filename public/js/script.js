@@ -16,7 +16,7 @@ if (navigator.geolocation) {
     )
 }
 
-const map = L.map('map').setView([0,0],14);
+const map = L.map('map').setView([0,0],8);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: 'dhruba'
